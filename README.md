@@ -26,3 +26,7 @@ npm install
 ```
 npm install --save-dev gulp
 ```
+#### Install the required gulp dependencies
+```
+npm i gulp gulp-sass gulp-clean-css gulp-uglify gulp-rename gulp-changed --save-dev
+```
