@@ -30,7 +30,7 @@ function style() {
 //Watch for changes
 function watch() {
     browserSync.init({
-        proxy: 'localhost:3000'
+        proxy: 'localhost:3000' //Makes a proxy for localhost:3000
     });
     gulp.watch(SCSS_SRC, style);
     gulp.watch('./*.html').on('change', browserSync.reload);
