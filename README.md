@@ -22,6 +22,11 @@ npm install
 ```
 #### Install React.js
 
+#### Install DOM bindings for React Router in your devDependencies
+```
+react-router-dom
+```
+
 #### Install the gulp package in your devDependencies
 ```
 npm install --save-dev gulp
