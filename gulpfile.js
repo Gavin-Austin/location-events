@@ -7,6 +7,7 @@ const minifyCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 const changed = require('gulp-changed');
+const browserSync = require('browser-sync').create();
 
 ////////////////
 // - SCSS / CSS
@@ -22,7 +23,18 @@ function style() {
         .pipe(minifyCSS())
         .pipe(rename({ suffix: '.min'}))
         .pipe(changed(SCSS_DEST))
-        .pipe(gulp.dest(SCSS_DEST));
+        .pipe(gulp.dest(SCSS_DEST))
+        .pipe(browserSync.stream());
 }
 
-exports.default = style;
+//Watch for changes
+function watch() {
+    browserSync.init({
+        proxy: 'localhost:3000'
+    });
+    gulp.watch(SCSS_SRC, style);
+    gulp.watch('./*.html').on('change', browserSync.reload);
+    gulp.watch('./*.js').on('change', browserSync.reload);
+}
+
+exports.default = watch;
