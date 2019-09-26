@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.com/Gavin-Austin/location-events.svg?token=JJr4EQFUfRiaA5sTx5c3&branch=master)](https://travis-ci.com/Gavin-Austin/location-events)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/Gavin-Austin/location-events.svg?token=JJr4EQFUfRiaA5sTx5c3&branch=master)](https://travis-ci.com/Gavin-Austin/location-events) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # location-events
 
