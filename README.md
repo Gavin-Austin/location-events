@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/Gavin-Austin/location-events.svg?token=JJr4EQFUfRiaA5sTx5c3&branch=master)](https://travis-ci.com/Gavin-Austin/location-events) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # location-events
 
@@ -11,27 +11,32 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Getting Started
+These instructions will get you a copy of the project running locally on your machine.
 
 ### Prerequisites
+Ensure npm is up to date:
+[npm](https://www.npmjs.com/get-npm)
 
-#### Install Node.js
+### Installation
+Clone or download the repository.
 
 #### Install NPM Dependencies
 ```
 npm install
 ```
-#### Install React.js
 
-#### Install DOM bindings for React Router in your devDependencies
+### Usage
+To run the web app locally, run the following command:
 ```
-npm i react-router-dom --save-dev
+npm start
 ```
 
-#### Install the gulp package in your devDependencies
+To enable BrowserSync, run the following command:
 ```
-npm install --save-dev gulp
+gulp
 ```
-#### Install the required gulp dependencies
+
+To start the server, run the following command:
 ```
-npm i gulp gulp-sass gulp-clean-css gulp-uglify gulp-rename gulp-changed --save-dev
+nodemon server/index.js
 ```
