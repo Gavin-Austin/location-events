@@ -9,7 +9,7 @@ import {
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
-import Popular from './components/pages/popular';
+import About from './components/pages/about';
 
 //Includes
 import './assets/css/default.min.css';
@@ -20,7 +20,7 @@ function App() {
             <div className="App">
                 <Header/>
                 <Route exact path={'/'} component={Homepage} />
-                <Route exact path={'/Popular'} component={Popular} />
+                <Route exact path={'/About'} component={About} />
                 <Footer/>
             </div>
         </Router>

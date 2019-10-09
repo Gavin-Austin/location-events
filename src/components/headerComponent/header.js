@@ -15,11 +15,8 @@ function Header() {
                     <li className={"first"}>
                         <Link to={"/"}>Home</Link>
                     </li>
-                    <li>
-                        <Link to={"/Popular"}>Popular</Link>
-                    </li>
                     <li className={"last"}>
-                        <Link to={"/Contact"}>Contact</Link>
+                        <Link to={"/About"}>About</Link>
                     </li>
                 </ul>
             </nav>
