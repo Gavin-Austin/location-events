@@ -1,9 +1,7 @@
 import React from 'react';
 import {
     BrowserRouter as Router,
-    Route,
-    Link
-} from 'react-router-dom';
+    Route} from 'react-router-dom';
 
 //Components
 import Header from './components/headerComponent/header';
