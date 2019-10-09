@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer>
-            Test Footer
+            The repository can be found at <a href="https://github.com/Gavin-Austin/location-events" target="_blank">https://github.com/Gavin-Austin/location-events</a>
         </footer>
     )
 }
