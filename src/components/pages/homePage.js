@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Homepage extends React.Component {
+class Homepage extends Component {
     constructor(props) {
         super(props);
         this.state = {zip: ''};
